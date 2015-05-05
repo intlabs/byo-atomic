@@ -14,6 +14,8 @@ git clone https://github.com/CentOS/sig-atomic-buildscripts; \
 
 git clone https://git.fedorahosted.org/git/fedora-atomic.git; \
 
+git clone https://github.com/intlabs/sig-atomic-buildscripts.git cannyos; \
+
 mkdir -p /srv/rpm-ostree/repo && cd /srv/rpm-ostree/ && ostree --repo=repo init --mode=archive-z2
 
 ADD rpm-ostree.conf /etc/httpd/conf.d/
